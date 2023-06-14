@@ -6,7 +6,7 @@ To Start this project you will need:
   2. Aws account that can set up S3, glue and Athena.
   3. Download VScode and docker desktop extension
 
-Second, setup docker by using docker for stock/docker-compose.yaml and type: docker-compose up. Wait for few minute then open browser type http://localhost:8080 and Username: airflow, Password: airflow, to use airflow UI.
+Second, setup docker by using stock/docker-compose.yaml and type: docker-compose up. Wait for few minute then open browser type http://localhost:8080 and Username: airflow, Password: airflow, to use airflow UI.
 
 Third, setup csv folder and parquet folder in s3 Buckets, add tables using crawler and create job for crawler.
 
