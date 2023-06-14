@@ -10,4 +10,4 @@ Second, setup docker by using docker for stock/docker-compose.yaml and type: doc
 
 Third, setup csv folder and parquet folder in s3 Buckets, add tables using crawler and create job for crawler.
 
-Fourth, Input your api key, aws access_key and secret_access_key in AMZN_TIME_SERIES_DAILY_ADJUSTED.py
+Fourth, Input your api key, aws access_key and secret_access_key to apikey, S3 client and glue client in AMZN_TIME_SERIES_DAILY_ADJUSTED.py
