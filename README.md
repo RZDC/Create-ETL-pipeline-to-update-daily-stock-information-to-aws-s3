@@ -5,6 +5,7 @@ To Start this project you will need:
   1. Create apikey from https://www.alphavantage.co/support/#api-key
   2. Aws account that can set up S3, glue and Athena.
   3. Download VScode and docker desktop extension
+  4. Move docker-for-daily-stock file from Create-ETL-pipeline-to-update-daily-stock-information-to-aws-s3-main.zip
 
 Second, setup docker by using stock/docker-compose.yaml and type: docker-compose up. Wait for few minute then open browser type http://localhost:8080 and Username: airflow, Password: airflow, to use airflow UI.
 
